@@ -20,11 +20,11 @@ export const services = [
       "Manage your website content effortlessly with our CMS solutions. Our platforms provide a user-friendly interface for updating, editing, and publishing content.",
   },
   {
-    name: "Mobile App Development",
-    image: "/mobile.png",
+    name: "API Development & Integration",
+    image: "/api.png",
 
     description:
-      "Enhance your business with our mobile app development services. We ensure seamless integration, stunning UI/UX, and robust functionality.",
+      "Enhance your website’s functionality with seamless API development and integration. We build secure, scalable, and efficient APIs to connect your applications, streamline processes, and improve user experience.",
   },
   {
     name: "Responsive Web Design",
@@ -48,7 +48,7 @@ export const stacks = [
   // { name: "php", image: "/stacks/php.png" },
   { name: "react", image: "/stacks/react.png" },
   { name: "typescript", image: "/stacks/typescript.png" },
-  { name: "flutter", image: "/stacks/flutter.png" },
+  { name: "python", image: "/stacks/python.png" },
   { name: "next js", image: "/stacks/nextjs.png" },
   { name: "vue js", image: "/stacks/vue.png" },
   { name: "React Native", image: "/stacks/reactnative.png" },

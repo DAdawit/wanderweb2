@@ -42,9 +42,9 @@ const Portfolios = () => {
                     </Link>
                   </div>
                   <div>
-                    <h1 className="border-[1px] border-gray-600 rounded-full px-3 py-1  text-sm">
+                    {/* <h1 className="border-[1px] border-gray-600 rounded-full px-3 py-1  text-sm">
                       {project.year}
-                    </h1>
+                    </h1> */}
                   </div>
                 </div>
                 <div className="text-sm px-5 pb-6 flex items-center gap-x-1 ">

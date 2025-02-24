@@ -8,7 +8,9 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import PhoneIcon from "@mui/icons-material/Phone";
 import CallToAction from "@/Components/Home/CallToAction";
 import FadeOut from "./Animations/FadeOut";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <FadeOut>
@@ -95,20 +97,23 @@ const Footer = () => {
                 <h1 className="text-sm  font-sans text-white">
                   E-mail.: dawitccnt@gmail.com
                 </h1>
-                <h1 className="">© 2023 WanderWeb</h1>
+                <h1 className="">© {currentYear} WanderWeb</h1>
                 <div className=" text-sm font-sans text-white mt-1">
                   <div className="flex gap-x-2">
-                    <Link href="#">
+                    {/* <Link href="#">
                       <FacebookIcon className=" text-white" />
-                    </Link>
-                    <Link href="#">
+                    </Link> */}
+                    {/* <Link href="#">
                       <InstagramIcon className=" text-white" />
-                    </Link>
-                    <Link href="#">
+                    </Link> */}
+                    <Link href="https://t.me/dawit_di03" target="_blank">
                       <TelegramIcon className=" text-white" />
                     </Link>
-                    <Link href="#">
-                      <PhoneIcon className="text-white" />
+                    <Link
+                      href="https://www.linkedin.com/in/dawit-d/"
+                      target="_blank"
+                    >
+                      <LinkedInIcon />
                     </Link>
                   </div>
                 </div>
